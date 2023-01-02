@@ -1,9 +1,9 @@
 <form action="<%= users_path %>" method="POST" accept-charset="UTF-8">
   <label for="text">Username</label> 
-  <input type="text" name="username" id="name">
+  <input type="text" name="user[username]" id="name">
   <label for="email">Email</label>
-  <input type="email" name="email" id="email">
+  <input type="email" name="user[email]" id="email">
   <label for="password">Password</label>
-  <input type="password" name="pasword" id="pasasword">
+  <input type="password" name="user[password]" id="password">
   <input type="submit" value="Submit">
 </form>
